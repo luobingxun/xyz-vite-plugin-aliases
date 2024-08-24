@@ -1,6 +1,6 @@
 {
   "name": "xyz-vite-plugin-aliases",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin that generates directory aliases in vite",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -12,6 +12,7 @@
       "types": "./dist/index.d.ts"
     }
   },
+  "files": ["dist"],
   "scripts": {
     "build": "rimraf ./dist && rollup --config rollup.config.mjs"
   },
