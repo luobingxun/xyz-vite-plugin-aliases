@@ -40,6 +40,9 @@ devDependencies:
   vite:
     specifier: ^5.4.1
     version: 5.4.2
+  xyz-vite-plugin-aliases:
+    specifier: ^1.0.1
+    version: 1.0.1
 
 packages:
 
@@ -2453,6 +2456,10 @@ packages:
   /word-wrap@1.2.5:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /xyz-vite-plugin-aliases@1.0.1:
+    resolution: {integrity: sha512-Z9wSyqzRe2iUBPdNdtpnIBRyJ7aYGr/7Fz+8WdB9nl941iMvCGEN85Uq9VlaeeeAzfRstq/gEBnQba77pAfxEQ==, tarball: https://registry.npmjs.org/xyz-vite-plugin-aliases/-/xyz-vite-plugin-aliases-1.0.1.tgz}
     dev: true
 
   /yallist@3.1.1:
