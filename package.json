@@ -1,0 +1,46 @@
+{
+  "name": "xyz-vite-plugin-aliases",
+  "version": "1.0.0",
+  "description": "A plugin that generates directory aliases in vite",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "rimraf ./dist && rollup --config rollup.config.mjs"
+  },
+  "repository": {
+    "url": "https://github.com/luobingxun/xyz-vite-plugin-aliases.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/luobingxun/xyz-vite-plugin-aliases/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin-aliases",
+    "aliases"
+  ],
+  "author": "xlz <lmw1470@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.21.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  }
+}
